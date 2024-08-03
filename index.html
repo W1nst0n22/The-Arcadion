@@ -545,42 +545,52 @@
 			</div>
 			<div class="item">
 				<span>Head</span>
+				<span class="item-tag">Tome</span>
 				<input type="checkbox" id="checkbox79">
 			</div>
 			<div class="item">
 				<span>Body</span>
+				<span class="item-tag">Raid</span>
 				<input type="checkbox" id="checkbox80">
 			</div>
 			<div class="item">
 				<span>Hands</span>
+				<span class="item-tag">Craft</span>
 				<input type="checkbox" id="checkbox81">
 			</div>
 			<div class="item">
 				<span>Legs</span>
+				<span class="item-tag">Tome</span>
 				<input type="checkbox" id="checkbox82">
 			</div>
 			<div class="item">
 				<span>Feet</span>
+				<span class="item-tag">Craft</span>
 				<input type="checkbox" id="checkbox83">
 			</div>
 			<div class="item">
 				<span>Earrings</span>
+				<span class="item-tag">Raid</span>
 				<input type="checkbox" id="checkbox84">
 			</div>
 			<div class="item">
 				<span>Necklace</span>
+				<span class="item-tag">Tome</span>
 				<input type="checkbox" id="checkbox85">
 			</div>
 			<div class="item">
 				<span>Bracelets</span>
+				<span class="item-tag">Raid</span>
 				<input type="checkbox" id="checkbox86">
 			</div>
 			<div class="item">
 				<span>Ring</span>
+				<span class="item-tag">Raid</span>
 				<input type="checkbox" id="checkbox87">
 			</div>
 			<div class="item">
 				<span>Ring</span>
+				<span class="item-tag">Tome</span>
 				<input type="checkbox" id="checkbox88">
 			</div>
 			<div class="item">
@@ -633,6 +643,8 @@
                 tag.classList.add('raid');
             } else if (text === 'Tome') {
                 tag.classList.add('tome');
+            } else if (text === 'Craft') {
+                tag.classList.add('craft');
             }
         });
 
