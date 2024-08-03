@@ -69,6 +69,11 @@ body {
     font-weight: bold;
 }
 
+.item-tag.craft {
+    color: orange;
+    font-weight: bold;
+}
+
 .item-drop.M1S,
 .item-drop.M2S,
 .item-drop.M3S,
